@@ -1,0 +1,65 @@
+
+.training-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh; /* Gesamte Ansichtshöhe */
+    overflow: hidden;
+    
+  }
+
+  
+  .training-map {
+    flex: 1; /* Nimmt den oberen Bereich ein */
+    max-height: 60%; /* Beschränkt die Höhe der Karte */
+    position: relative;
+  }
+  
+  .training-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .training-text {
+    flex: 1; /* Nimmt den unteren Bereich ein */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    text-align: center;
+    background-color: var(--background-color); /* Schwarzer Hintergrund */
+ 
+  }
+  
+  .ueberschrift {
+    font-size: clamp(2rem, 2.8vw, 5rem); /* Schriftgröße für die Überschrift */
+    color: var(--primary-color); /* Goldene Schriftfarbe */
+    margin: 10px 0;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    font-size: clamp(1.2rem, 1.8vw, 2.5rem); /* Schriftgröße für den Text */
+    margin: 0;
+  }
+
+  @media (min-width: 768px) { /* Desktop-Modus */
+    .training-container {
+        flex-direction: row; /* Layout nebeneinander */
+        height: 70vh;
+        align-items: center;
+    }
+
+    .training-map {
+      padding-right: 10%;
+      height: 80%;
+      
+     
+    }
+
+  .text{
+    padding-bottom: 3rem;
+  }
+    
+  }

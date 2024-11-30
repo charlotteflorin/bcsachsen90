@@ -1,0 +1,32 @@
+.homediv {
+    display: flex; /* Flexbox aktivieren */
+    justify-content: center; /* Horizontal zentrieren */
+    align-items: center; /* Vertikal zentrieren */
+    background-image: url('../../assets/images/homebild.png'); /* Pfad zum Bild */
+    background-size: cover; /* Bild skalieren, um den gesamten Bereich abzudecken */
+    background-position: center; /* Bild zentrieren */
+    background-attachment: fixed; /* Bild fixieren, sodass es beim Scrollen nicht bewegt wird */
+    height: 92vh; /* Bild nimmt 100% der Höhe des Viewports ein */
+    width: 100%;
+    position: relative; /* Für das Pseudoelement notwendig */
+}
+
+.homediv::before {
+    content: ''; /* Leeres Pseudoelement */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dunkle Überlagerung */
+    filter: brightness(0.5); /* Nur die Helligkeit des Hintergrunds reduzieren */
+    z-index: 1; /* Das Pseudo-Element muss hinter dem Text liegen */
+}
+
+.hometext {
+    position: relative; /* Der Text bleibt über dem Pseudoelement und dem Bild */
+    z-index: 2; /* Stellt sicher, dass der Text über der Überlagerung liegt */
+    color: var(--font-color); /* Weißer Text für besseren Kontrast */
+    font-size: clamp(3rem, 5vw, 10rem);
+    text-align: center;
+}

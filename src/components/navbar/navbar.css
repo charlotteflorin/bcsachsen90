@@ -1,0 +1,120 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-right: 1rem;
+    
+      }
+  
+  .navbar {
+    height: 60px;
+    background-color: var(--tertiary-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    
+    
+  }
+  
+  .logo {
+    margin-left: 10px;
+    color: var(--primary-color);
+    font-weight: 200;
+    font-size: 1.8rem;
+  }
+
+  .logo img{
+    height: 50px;
+    padding-top: .5rem;
+  }
+  
+  
+  .nav-elements ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  .nav-elements ul li {
+    margin-right: 10px;
+  }
+  
+  .nav-elements ul a {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--font-color);
+    text-decoration: none;
+  }
+  
+  .nav-elements ul a.active {
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .nav-elements ul a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-color);
+  }
+  
+  @media (max-width: 1000px) {
+    .nav-elements ul li:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .nav-elements {
+      position: absolute;
+      right: 0;
+      top: 60px;
+      background-color: var(--tertiary-color);
+      width: 0px;
+      height: calc(100vh - 60px);
+      transition: all 0.3s ease-in;
+      overflow: hidden;
+    }
+  
+    .nav-elements.active {
+      width: 270px;
+    }
+  
+    .nav-elements ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .nav-elements ul li {
+      margin-right: unset;
+      margin-top: 22px;
+    }
+  }
+
+  .nav-elements ul a.active::after {
+    content: ""; /* Fügt eine Linie als "Pseudo-Element" hinzu */
+    position: absolute;
+    bottom: -4px; /* Positioniert die Linie 4px unterhalb des Links */
+    left: 0; /* Startet am linken Rand des Links */
+    width: 100%; /* Breite entspricht der gesamten Breite des Links */
+    height: 2px; /* Höhe der Linie (dünn) */
+    background-color: var(--primary-color); /* Farbe der Linie */
+}
+  
+
+  @media (min-width: 1000px) {
+    .menu-icon {
+      display: none; /* Hamburger-Icon ausblenden */
+    }}

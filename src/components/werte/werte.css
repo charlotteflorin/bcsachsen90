@@ -1,0 +1,51 @@
+.card {
+  background: var(--background-color);
+  width: 24em;
+  margin: 1em;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Setzt die Höhe der Karte auf 100% */
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 100%;/* Gib eine feste Höhe für das Bild an */
+}
+
+.card-body {
+  padding: 1.2em;
+  flex-grow: 1; /* Verhindert, dass der Text die Höhe der Karte überschreitet */
+}
+
+.card h2 {
+  color: var(--primary-color);
+  margin-top: -0.2em;
+  line-height: 1.4;
+  font-size: clamp(1.8rem, 2vw, 5rem);
+  font-weight: 500;
+  transition: all ease-in 100ms;
+}
+
+.card p {
+  color: var(--font-color);
+  font-size: clamp(1.2em, 1.5vw, 2.5em);
+}
+
+.card h5 {
+  color: var(--font-color);
+  font-weight: 700;
+  font-size: clamp(1.2em, 1.5vw, 2.5em);
+  letter-spacing: 0.04em;
+  margin: 1.4em 0 0 0;
+  text-transform: uppercase;
+}
+
+.werte-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch; /* Stellt sicher, dass alle Karten die gleiche Höhe haben */
+  flex-wrap: wrap;
+}

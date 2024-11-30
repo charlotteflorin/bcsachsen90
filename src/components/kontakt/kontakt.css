@@ -1,0 +1,45 @@
+.kontakt-container {
+  display: flex; /* Flexbox für horizontale Ausrichtung */
+  flex-direction: row; /* Elemente nebeneinander */
+  flex-wrap: wrap; /* Zeilenumbruch erlauben, falls der Platz knapp wird */
+  align-items:center; /* Inhalte oben ausrichten */
+  justify-content: space-evenly;
+  gap: 20px; /* Abstand zwischen den Kontaktpersonen */
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+.kontakt-person {
+  display: flex; /* Flexbox für jede Kontaktperson */
+  flex-direction: column; /* Name und Infos untereinander */
+  gap: 10px; /* Abstand zwischen Name und Infos */
+ 
+}
+
+.kontakt-name {
+  font-size: clamp(1.5rem, 2vw, 4rem);
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.kontakt-info {
+  display: flex;
+  flex-direction: column; /* Infos bleiben untereinander */
+  gap: 5px;
+  font-size: clamp(1rem, 1.5vw, 2.5rem);
+  color: var(--font-color);}
+
+.kontakt-funktion{
+  font-weight: bold;
+}
+
+/* Responsives Verhalten */
+@media (max-width: 786px) {
+  .kontakt-container {
+    flex-direction: column;
+    align-items: stretch; 
+    margin-left: 30%;
+  }
+
+
+}

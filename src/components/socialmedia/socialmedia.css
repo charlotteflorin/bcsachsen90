@@ -1,0 +1,40 @@
+.social-media-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Abstand zwischen den Bildern */
+    margin-top: 20px;
+    
+  }
+  
+  .social-media-item img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 30vw;
+    height: auto;
+    border-radius: 40px;
+  }
+
+  .ueberschrift{
+    
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .social-media-links {
+      flex-direction: row; /* Auf großen Bildschirmen nebeneinander */
+      justify-content: space-evenly; /* Bilder werden links ausgerichtet */
+      align-items: flex-start;
+    }
+  
+    .ueberschrift {
+      text-align: center; /* Überschrift rechtsbündig auf Desktop */
+      width: 100%; /* Stellt sicher, dass die Überschrift die gesamte Zeile einnimmt */
+      margin-bottom: 50px;
+    }
+  
+    .social-media-item img {
+      width: 30vw; /* Auf Desktop-Bildschirm die Breite der Bilder anpassen */
+      max-width: 300px; /* Maximale Breite der Bilder */
+    }
+  }
