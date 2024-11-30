@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bcsachsen90/static/css/main.3011c852.css",
+    "main.js": "/bcsachsen90/static/js/main.c16a408d.js",
+    "static/js/453.47088684.chunk.js": "/bcsachsen90/static/js/453.47088684.chunk.js",
+    "static/media/homebild.png": "/bcsachsen90/static/media/homebild.452b8d485bcc62007bb6.png",
+    "static/media/instagram_logo.png": "/bcsachsen90/static/media/instagram_logo.c1859c99895a24ce2099.png",
+    "static/media/facebook_logo.png": "/bcsachsen90/static/media/facebook_logo.b2df8b773ce3d164c069.png",
+    "static/media/tiktok_logo.png": "/bcsachsen90/static/media/tiktok_logo.ce16f2ebdb5967201bee.png",
+    "static/media/logo.svg": "/bcsachsen90/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bcsachsen90/index.html",
+    "main.3011c852.css.map": "/bcsachsen90/static/css/main.3011c852.css.map",
+    "main.c16a408d.js.map": "/bcsachsen90/static/js/main.c16a408d.js.map",
+    "453.47088684.chunk.js.map": "/bcsachsen90/static/js/453.47088684.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3011c852.css",
+    "static/js/main.c16a408d.js"
+  ]
+}
