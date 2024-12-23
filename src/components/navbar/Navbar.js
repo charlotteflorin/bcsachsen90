@@ -85,6 +85,15 @@ const Navbar = () => {
                 Training
               </a>
             </li>
+             <li>
+              <a
+                href="#kontakt"
+                onClick={handleScrollTo}
+                className={activeSection === "#kontakt" ? "active" : ""}
+              >
+                Kontakt
+              </a>
+            </li>
             <li>
               <a
                 href="#werte"
@@ -103,15 +112,7 @@ const Navbar = () => {
                 Folge uns
               </a>
             </li>
-            <li>
-              <a
-                href="#kontakt"
-                onClick={handleScrollTo}
-                className={activeSection === "#kontakt" ? "active" : ""}
-              >
-                Kontakt
-              </a>
-            </li>
+           
             <li>
               <a
                 href="#impressum"

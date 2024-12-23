@@ -1,45 +1,40 @@
 import './kontakt.css'
+import { FaPhoneAlt, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
+import contactimg from '../../assets/images/kontaktimg.png' 
 
 const Kontakt = () => {
-    return (
-      <>
-      <div className=" ueberschrift">Kontakt</div>
-      <div className="kontakt-container">
-       
-        <br></br>
+  return (
+    <>
+    <h2 className="ueberschrift contact-header">Kontaktinformationen</h2>
+    <div className="contact-container">
+      <div className="contact-content">
         
-        <div className="kontakt-person">
-          <div className="kontakt-name">Mario Schuler</div>
-          <div className="kontakt-info">
-            <div className='kontakt-funktion'>Vorstandsvorsitzender</div>
-            <div className="kontakt-tel">Tel.: 0151 11111111</div>
-            <div className="kontakt-email">E-Mail: Mario.schuler@email.com</div>
+        <div className="contact-details">
+         
+          <div className="contact-item">
+            <FaPhoneAlt className="contact-icon" />
+            <span className="contact-text">0123456789</span>
+          </div>
+          <div className="contact-item">
+            <FaMapMarkerAlt className="contact-icon" />
+            <span className="contact-text">Am Strehlaer Wasser 26, 02625 Bautzen</span>
+          </div>
+          <div className="contact-item">
+            <FaEnvelope className="contact-icon" />
+            <span className="contact-text">info@bcsachsen90.de</span>
           </div>
         </div>
-        <br></br>
-        
-        <div className="kontakt-person">
-          <div className="kontakt-name">Charlotte Florin</div>
-          <div className="kontakt-info">
-            <div className='kontakt-funktion'>Kassenwärtin</div>
-            <div className="kontakt-tel">Tel.: 0151 111111111</div>
-            <div className="kontakt-email">E-Mail: cf99@gmx.net</div>
-          </div>
-        </div>
-
-        <br></br>
-        
-        <div className="kontakt-person">
-          <div className="kontakt-name">René Kretzschmer</div>
-          <div className="kontakt-info">
-            <div className='kontakt-funktion'>Sportwart</div>
-            <div className="kontakt-tel">Tel.: 0151 111111111</div>
-            <div className="kontakt-email">E-Mail: cf99@gmx.net</div>
-          </div>
+        <div className="contact-image">
+          <img
+            src={contactimg}
+            alt="Kontakt"
+            className="contact-img"
+          />
         </div>
       </div>
-      </>
-    );
-  };
-  
-  export default Kontakt;
+    </div>
+    </>
+  );
+};
+
+export default Kontakt;

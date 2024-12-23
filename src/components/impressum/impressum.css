@@ -1,36 +1,28 @@
 .impressum-container {
-  display: flex;
-  flex-direction: column; /* Standard: Untereinander */
-  align-items: center; /* Elemente links ausgerichtet */
-  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Automatische Spaltenanzahl, abhängig von der Breite */
+  gap: 20px; 
   background-color: var(--background-color);
+  margin-left: 10%;
 }
 
-.impressum-header {
-  margin-top: 5vh;
-}
 
-.impressum-details {
-  display: flex;
-  flex-direction: column; /* Standard: Untereinander */
-}
+
+
+
 
 .impressum-title {
   font-size: clamp(1.5rem, 2vw, 4rem);
   color: var(--secondary-color);
-  margin-bottom: 10px;
+ 
 }
 
-.impressum-representative {
-  margin-top: 10px;
-  margin-left: 20px;
-}
 
 .impressum-subtitle {
   font-size: clamp(1rem, 1.5vw, 2.5rem);
   font-weight: bold;
   color: var(--font-color);
-  margin-bottom: 5px;
+ 
 }
 
 .impressum-name,
@@ -42,16 +34,17 @@
   color: var(--font-color);
 }
 
-.impressum-register {
-  margin-top: 20px;
-  margin-left: 20px;
+.impressum-tel,
+.impressum-email{
+  color: var(--secondary-color);
 }
+
 
 .impressum-register-title {
   font-size: clamp(1rem, 1.5vw, 2.5rem);
   font-weight: bold;
   color: var(--font-color);
-  margin-bottom: 5px;
+
 }
 
 .impressum-register-number {
@@ -59,30 +52,11 @@
   color: var(--font-color);
 }
 
-/* Desktop-Layout */
-@media (min-width: 786px) {
-  .impressum-container {
-    flex-direction: row; /* Elemente nebeneinander */
-    justify-content: center; /* Zentriere die gesamte Struktur */
-    align-items: flex-start; /* Elemente oben ausgerichtet */
-  }
+.rights{
+  font-size: clamp(0.5rem, 1vw, 2rem);
+  text-align: center;
+  margin-top: 2%;
 
-  .impressum-title {
-    flex: 1; /* Linker Bereich nimmt Platz ein */
-    text-align: left; /* Text linksbündig */
-  }
-
-  .impressum-details {
-    flex-direction: row; /* Representative und Register nebeneinander */
-    gap: 50px; /* Abstand zwischen den Abschnitten */
-    align-items: flex-start; /* Oben ausgerichtet */
-  }
-
-  .impressum-representative {
-    margin: 0; /* Kein zusätzlicher Abstand mehr nötig */
-  }
-
-  .impressum-register {
-    margin: 0; /* Kein zusätzlicher Abstand mehr nötig */
-  }
 }
+
+

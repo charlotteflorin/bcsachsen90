@@ -1,45 +1,76 @@
-.kontakt-container {
-  display: flex; /* Flexbox für horizontale Ausrichtung */
-  flex-direction: row; /* Elemente nebeneinander */
-  flex-wrap: wrap; /* Zeilenumbruch erlauben, falls der Platz knapp wird */
-  align-items:center; /* Inhalte oben ausrichten */
-  justify-content: space-evenly;
-  gap: 20px; /* Abstand zwischen den Kontaktpersonen */
-  padding: 20px;
+.contact-container {
   background-color: var(--background-color);
+  color: var(--font-color);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
-.kontakt-person {
-  display: flex; /* Flexbox für jede Kontaktperson */
-  flex-direction: column; /* Name und Infos untereinander */
-  gap: 10px; /* Abstand zwischen Name und Infos */
+.contact-content {
+  display: flex;
+  flex-direction: row; /* Standardmäßig vertikal ausrichten */
+  
+  justify-content:space-evenly; /* Vertikal zentrieren */
+  align-items: center; /* Horizontal zentrieren */
+
+}
+
+.contact-image {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Zentrieren des Bildes */
+  align-items: center; /* Vertikal zentrieren des Bildes */
+}
+
+.contact-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.contact-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+ 
  
 }
 
-.kontakt-name {
-  font-size: clamp(1.5rem, 2vw, 4rem);
-  color: var(--secondary-color);
-  font-weight: bold;
+.contact-header {
+  margin-bottom: 40px;
+  text-align: center; /* Titel zentrieren */
 }
 
-.kontakt-info {
+.contact-item {
   display: flex;
-  flex-direction: column; /* Infos bleiben untereinander */
-  gap: 5px;
-  font-size: clamp(1rem, 1.5vw, 2.5rem);
-  color: var(--font-color);}
-
-.kontakt-funktion{
-  font-weight: bold;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
-/* Responsives Verhalten */
-@media (max-width: 786px) {
-  .kontakt-container {
-    flex-direction: column;
-    align-items: stretch; 
-    margin-left: 30%;
+.contact-icon {
+  font-size: clamp(1.2em, 2.5vw, 2.5em);
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+
+.contact-text {
+  font-size: clamp(1.2em, 2vw, 2.5em);
+  word-wrap: break-word;
+}
+
+
+@media (max-width: 600px) {
+  .contact-container {
+    margin-left: 10%;
   }
 
+  .contact-item {
+    margin-left: 0; /* Anpassen des Abstands bei kleinen Bildschirmen */
+  }
 
+  .contact-image {
+    display: none; /* Bild auf mobilen Geräten ausblenden */
+  }
 }

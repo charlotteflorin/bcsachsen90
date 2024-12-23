@@ -43,7 +43,7 @@
   }
   
   .nav-elements ul a {
-    font-size: 16px;
+    font-size: clamp(1rem, 1vw, 2.5rem);
     font-weight: 400;
     color: var(--font-color);
     text-decoration: none;

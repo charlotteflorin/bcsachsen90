@@ -21,6 +21,10 @@ function App() {
         <Training/>
       </section>
 <br></br>
+      <section id="kontakt" className="section">
+              <Kontakt/>
+      </section>
+    <br></br>
       <section id="werte" className="section">
         <Werte/>
       </section>
@@ -30,15 +34,15 @@ function App() {
       </section>
       <br></br><br></br><br></br>
 
-      <section id="kontakt" className="section">
-        <Kontakt/>
-      </section>
+      
 
       <br></br> <br></br>
 
       <section id="impressum" className="section">
         <Impressum/>
       </section>
+      <br></br>
+      
 
       
     </>

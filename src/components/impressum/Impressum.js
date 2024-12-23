@@ -8,24 +8,42 @@ const Impressum = () => {
     <div className="impressum-container">
      
       
-      <div className="impressum-details">
+      <div className="impressum-details container-impr">
         <div className="impressum-title">BC Sachsen 90 Bautzen e.V.</div>
+        </div>
         
-        <div className="impressum-representative">
+        <div className="impressum-representative container-impr">
           <div className="impressum-subtitle">vertreten durch</div>
+          <div className="impressum-name">Vorstandsvorsitzender</div>
           <div className="impressum-name">Mario Schuler</div>
           <div className="impressum-address">Am Strehlaer Wasser 26</div>
           <div className="impressum-city">02625 Bautzen</div>
           <div className="impressum-tel">Tel.: 03591-491348</div>
           <div className="impressum-email">E-Mail: mario.schuler@mail</div>
+          <br></br>
+          <div className="impressum-name">Kassenwärtin</div>
+          <div className="impressum-name">Charlotte Florin</div>
+          <br></br>
+          <div className="impressum-name">Sportwart</div>
+          <div className="impressum-name">René Kretschmer</div>
         </div>
         
-        <div className="impressum-register">
+        <div className="impressum-register container-impr">
           <div className="impressum-register-title">Registernummer</div>
-          <div className="impressum-register-number">[Hier einfügen]</div>
+          <div className="impressum-register-number">Registergericht Dresden</div>
+          <div className="impressum-register-number">VR 30173</div>
+          <br></br>
+          <div className="impressum-subtitle">V.i.S.d §18 Abs.2 MStV</div>
+          <div className="impressum-name">Charlotte Florin</div>
+          <div className="impressum-address">Boltenhagener Str. 69</div>
+          <div className="impressum-city">01109 Dresden</div>
+          <br></br>
+          
         </div>
-      </div>
+      
     </div>
+    <div className='rights'>&copy; 2025 BC Sachsen 90 Bautzen e.V. Alle Rechte vorbehalten.</div>
+    
     </>
   );
 };
