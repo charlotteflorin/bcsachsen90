@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/bcsachsen90/static/css/main.3011c852.css",
-    "main.js": "/bcsachsen90/static/js/main.c16a408d.js",
+    "main.css": "/bcsachsen90/static/css/main.4a5ec6a3.css",
+    "main.js": "/bcsachsen90/static/js/main.3e515392.js",
     "static/js/453.47088684.chunk.js": "/bcsachsen90/static/js/453.47088684.chunk.js",
+    "static/media/werte3.JPG": "/bcsachsen90/static/media/werte3.8a81adf85ece28bced78.JPG",
+    "static/media/werte1.JPG": "/bcsachsen90/static/media/werte1.9873c9c0d6fc40b64338.JPG",
+    "static/media/kontaktimg.png": "/bcsachsen90/static/media/kontaktimg.ffaf04cf18c25e0dfbe4.png",
     "static/media/homebild.png": "/bcsachsen90/static/media/homebild.452b8d485bcc62007bb6.png",
+    "static/media/werte2.jpg": "/bcsachsen90/static/media/werte2.65a8ba3a5f28e40ede1b.jpg",
     "static/media/instagram_logo.png": "/bcsachsen90/static/media/instagram_logo.c1859c99895a24ce2099.png",
     "static/media/facebook_logo.png": "/bcsachsen90/static/media/facebook_logo.b2df8b773ce3d164c069.png",
     "static/media/tiktok_logo.png": "/bcsachsen90/static/media/tiktok_logo.ce16f2ebdb5967201bee.png",
     "static/media/logo.svg": "/bcsachsen90/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bcsachsen90/index.html",
-    "main.3011c852.css.map": "/bcsachsen90/static/css/main.3011c852.css.map",
-    "main.c16a408d.js.map": "/bcsachsen90/static/js/main.c16a408d.js.map",
+    "main.4a5ec6a3.css.map": "/bcsachsen90/static/css/main.4a5ec6a3.css.map",
+    "main.3e515392.js.map": "/bcsachsen90/static/js/main.3e515392.js.map",
     "453.47088684.chunk.js.map": "/bcsachsen90/static/js/453.47088684.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3011c852.css",
-    "static/js/main.c16a408d.js"
+    "static/css/main.4a5ec6a3.css",
+    "static/js/main.3e515392.js"
   ]
 }
