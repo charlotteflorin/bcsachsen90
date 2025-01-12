@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bcsachsen90/static/css/main.4a5ec6a3.css",
-    "main.js": "/bcsachsen90/static/js/main.3e515392.js",
+    "main.js": "/bcsachsen90/static/js/main.06b66447.js",
     "static/js/453.47088684.chunk.js": "/bcsachsen90/static/js/453.47088684.chunk.js",
     "static/media/werte3.JPG": "/bcsachsen90/static/media/werte3.8a81adf85ece28bced78.JPG",
     "static/media/werte1.JPG": "/bcsachsen90/static/media/werte1.9873c9c0d6fc40b64338.JPG",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/bcsachsen90/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bcsachsen90/index.html",
     "main.4a5ec6a3.css.map": "/bcsachsen90/static/css/main.4a5ec6a3.css.map",
-    "main.3e515392.js.map": "/bcsachsen90/static/js/main.3e515392.js.map",
+    "main.06b66447.js.map": "/bcsachsen90/static/js/main.06b66447.js.map",
     "453.47088684.chunk.js.map": "/bcsachsen90/static/js/453.47088684.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a5ec6a3.css",
-    "static/js/main.3e515392.js"
+    "static/js/main.06b66447.js"
   ]
 }
