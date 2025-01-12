@@ -21,7 +21,7 @@ const Kontakt = () => {
           </div>
           <div className="contact-item">
           <FaEnvelope className="contact-icon" />
-            <div className="contact-detail">kontakt@bcsachsen90.de</div>
+            <div className="contact-detail">kontakt@bcsachsen90bautzen.de</div>
           </div>
         </div>
       </div>
