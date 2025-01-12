@@ -9,7 +9,7 @@ const Training = () => {
         <div className="text">Jeden Freitag von 15:00 Uhr bis 18:00 Uhr</div>
         <br></br>
         <div className="ueberschrift">Training für Erwachsene</div>
-        <div className="text">Jeden Montag ab 18:00 Uhr</div>
+        <div className="text">Jeden Montag ab 17:00 Uhr</div>
       </div>
       <div className="training-map">
       <iframe

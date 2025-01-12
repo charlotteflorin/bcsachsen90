@@ -34,10 +34,10 @@
   color: var(--font-color);
 }
 
-.impressum-tel,
+/* .impressum-tel,
 .impressum-email{
   color: var(--secondary-color);
-}
+} */
 
 
 .impressum-register-title {

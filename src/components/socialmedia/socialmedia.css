@@ -25,6 +25,7 @@
       flex-direction: row; /* Auf großen Bildschirmen nebeneinander */
       justify-content: space-evenly; /* Bilder werden links ausgerichtet */
       align-items: flex-start;
+      margin-bottom: 70px;
     }
   
     .ueberschrift {
