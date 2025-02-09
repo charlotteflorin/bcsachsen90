@@ -14,14 +14,14 @@ const Impressum = () => {
         
         <div className="impressum-representative container-impr">
           <div className="impressum-subtitle">vertreten durch</div>
-          <div className="impressum-name">Vorstandsvorsitzender</div>
+          <div className="impressum-name">Vereinsvorsitzender</div>
           <div className="impressum-name">Mario Schuler</div>
           <div className="impressum-address">Am Strehlaer Wasser 26</div>
           <div className="impressum-city">02625 Bautzen</div>
           <div className="impressum-tel">Tel.: 03591-491348</div>
-          <div className="impressum-email">E-Mail: mario.schuler@mail</div>
+          <div className="impressum-email">E-Mail: m.schuler-finanzfachmann@t-online.de</div>
           <br></br>
-          <div className="impressum-name">Kassenwärtin</div>
+          <div className="impressum-name">Kassenwartin</div>
           <div className="impressum-name">Charlotte Florin</div>
           <br></br>
           <div className="impressum-name">Sportwart</div>

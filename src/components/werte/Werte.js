@@ -16,7 +16,7 @@ const Werte = () => {
       />
       <CustomSection
         title="Vorbereitung auf Wettkämpfe"
-        text="Unsere Mitglieder nehmen regelmäßig an sächsischen und deutschen Meisterschaften teil. Mit gezieltem Training und professioneller Unterstützung bereiten wir uns intensiv auf diese Herausforderungen vor."
+        text="Unsere Mitglieder nehmen regelmäßig an Sächsischen und Deutschen Meisterschaften teil. Mit gezieltem Training und professioneller Unterstützung bereiten wir uns intensiv auf diese Herausforderungen vor."
         img={werte2} 
         alt="Unsere Jugend mit Medaillien"
       />

@@ -6,7 +6,7 @@ const Training = () => {
     <div className="training-container">
       <div className="training-text">
         <div className="ueberschrift">Training für Jugendliche</div>
-        <div className="text">Jeden Freitag von 15:00 Uhr bis 18:00 Uhr</div>
+        <div className="text">Jeden Freitag von 15:30 Uhr bis 18:00 Uhr</div>
         <br></br>
         <div className="ueberschrift">Training für Erwachsene</div>
         <div className="text">Jeden Montag ab 17:00 Uhr</div>
